@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.api.Costable;
+
 public class Car extends Vehicle implements Costable {
     private int doorsCount;
     private int cost;
